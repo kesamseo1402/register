@@ -1,0 +1,123 @@
+.register {
+    max-width: 100%;
+    width: auto;
+    height: 100vh;
+    background-image: linear-gradient(0, rgba(195, 34, 112, 0.6), rgba(195, 34, 112, 0.6)),
+    url("/Register/assets/img/nick-morrison-FHnnjk1Yj7Y-unsplash\ 1.png");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.register-background__logo {
+    display: flex;
+    width: 55%;
+    height: 100vh;
+}
+
+.register-background__logo-img {
+    margin: auto;
+}
+
+.register-form {
+    width: 45%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #f6f6f6;
+    padding: 84px 50px;
+}
+
+.register-form__return {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 500; 
+    color: #C32270;
+    margin-bottom: 50px;
+}
+
+.register-form__return-icon {
+    font-size: 1.8rem;
+    margin-right: 16px;
+}
+
+.register-form__logo {
+    min-height: 200px;
+    margin: auto;    
+}
+
+.register-form__logo-img {
+    width: 100%;
+    height: auto;
+}
+
+.register-form__logo-title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.register-form__center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    width: 523px;
+    height: 100vh;
+}
+
+.register__form-group {
+    display: inline-flex;
+    align-items: center;
+    width: 523px;
+    height: 55px;
+    border: 1px solid #bababa;
+    margin-top: 20px;
+    padding: 0 18px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.register__form-icon {
+    color: #bababa;
+    font-size: 20px;
+}
+
+.register-form__input {
+    width: 100%;
+    height: 55px;
+    border: none;
+    padding: 0 14px;
+    font-size: 16px;
+    font-weight: 500;
+    outline: none;
+}
+
+.register-form__input::placeholder {    
+    color: #bababa;
+}
+
+.form__register-btn {
+    margin-top: 28px;
+    min-width: 100%;
+    height: 50px;
+    background-color: #C32270;
+    border: 1px solid #C32270;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.register-form__forgot {
+    margin-top: 30px;
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
